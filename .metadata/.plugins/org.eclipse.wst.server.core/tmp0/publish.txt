@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Mon Jun 24 15:31:04 CEST 2019
+org.eclipse.jst.jee.server\:bloc=/home/dit/tomcat/webapps/bloc
+org.eclipse.jst.jee.server\:bloc-inicial=/home/dit/tomcat/webapps/bloc-inicial

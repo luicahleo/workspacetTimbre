@@ -1,0 +1,26 @@
+
+Jun 24, 2019 14:57:50.05 NEW SESSION
+Jun 24, 2019 14:57:50.05 
+Jun 24, 2019 14:57:50.05 (/usr/lib/firefox/firefox:24682): dconf-WARNING **: 14:57:50.049: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+
+Jun 24, 2019 15:09:03.84 NEW SESSION
+Jun 24, 2019 15:09:03.84 
+Jun 24, 2019 15:09:03.85 (/usr/lib/firefox/firefox:7163): dconf-WARNING **: 15:09:03.847: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Jun 24, 2019 15:42:25.21 IPDL protocol error: Handler returned error code!
+Jun 24, 2019 15:42:25.21 
+Jun 24, 2019 15:42:25.21 ###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+Jun 24, 2019 15:42:25.21 
+Jun 24, 2019 15:42:25.21 IPDL protocol error: Handler returned error code!
+Jun 24, 2019 15:42:25.21 
+Jun 24, 2019 15:42:25.21 ###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+Jun 24, 2019 15:42:25.21 
+Jun 24, 2019 15:42:25.21 IPDL protocol error: Handler returned error code!
+Jun 24, 2019 15:42:25.21 
+Jun 24, 2019 15:42:25.21 ###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+Jun 24, 2019 15:42:25.21 
+Jun 24, 2019 15:42:25.36 [Parent 7087, Gecko_IOThread] WARNING: pipe error (60): Connection reset by peer: file /build/firefox-GfAqaH/firefox-67.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+Jun 24, 2019 15:42:25.36 [Parent 7087, Gecko_IOThread] WARNING: pipe error (156): Connection reset by peer: file /build/firefox-GfAqaH/firefox-67.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+Jun 24, 2019 15:42:25.39 [Parent 7087, Gecko_IOThread] WARNING: pipe error (116): Connection reset by peer: file /build/firefox-GfAqaH/firefox-67.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+Jun 24, 2019 15:42:25.49 
+Jun 24, 2019 15:42:25.49 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jun 24, 2019 15:42:25.49 
