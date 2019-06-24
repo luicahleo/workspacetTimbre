@@ -24,3 +24,7 @@ Jun 24, 2019 15:42:25.39 [Parent 7087, Gecko_IOThread] WARNING: pipe error (116)
 Jun 24, 2019 15:42:25.49 
 Jun 24, 2019 15:42:25.49 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 Jun 24, 2019 15:42:25.49 
+
+jun. 24, 2019 23:44:45.46 NEW SESSION
+jun. 24, 2019 23:44:45.46 
+jun. 24, 2019 23:44:45.46 (/usr/lib/firefox/firefox:3931): dconf-WARNING **: 23:44:45.461: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permiso denegado

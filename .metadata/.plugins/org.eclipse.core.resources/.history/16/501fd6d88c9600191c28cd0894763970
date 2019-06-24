@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"
+    import="java.util.List, fast.bloc.Nota, fast.bloc.DAOException%>
+    
+<jsp:useBean id="usuario" class="fast.bloc.Usuario" scope="session" />
+<jsp:useBean id="notas" class="fast.bloc.NotasDAO" scope="application" />
+<jsp:useBean id="nota" class="fast.bloc.Nota" />
+<jsp:setProperty property="*" name="nota"/>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+</body>
+</html>

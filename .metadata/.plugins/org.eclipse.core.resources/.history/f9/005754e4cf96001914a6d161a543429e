@@ -1,0 +1,51 @@
+
+<%@page import="fast.bloc.Usuario"%>
+<script src="${pageContext.request.contextPath}/usuarios/js/cabecera.js"></script>
+
+
+<jsp:useBean id="usuario" class="fast.bloc.Usuario" scope="session" />
+
+
+<%
+
+String usu = usuario.getNombre();
+
+if(usuario.getTipo_usu()==Usuario.ADMINISTRADOR){
+	
+	System.out.println("debug: " + usu);
+
+
+%>
+
+
+<%}%>
+
+<div id="navegador">
+  <ul>
+    <li id="seccion1" onmouseover="ver(1)" onmouseout="ocultar(1)"><a href="#">Sección Uno</a></li>
+	    <div id="subseccion1">
+	    <li id="seccion2"><a href="#">Sección Dos</a></li>
+	    <li id="seccion3"><a href="#">Sección Tres</a></li>
+	    <li id="seccion4"><a href="#">Sección Cuatro</a></li> 
+	    </div>
+  </ul>
+  <div class="borrar"></div>
+</div>
+
+
+
+<div id="cabecera">
+	<div id="logotipo">
+		<a href="${pageContext.request.contextPath}/menu.jsp"> 
+		<img src="${pageContext.request.contextPath}/imagenes/blocnotasfast-p.png"	alt="Bloc de Notas FAST"/>
+		</a>
+	</div>
+
+<!-- 
+
+	<a href="${pageContext.request.contextPath}/index.jsp?salir">
+	<span class="acceso">Cerrar sesión</span>
+	</a> 
+	<span class='acceso' id='nombreusuario'>${usuario.nombre}</span>
+ -->
+</div>

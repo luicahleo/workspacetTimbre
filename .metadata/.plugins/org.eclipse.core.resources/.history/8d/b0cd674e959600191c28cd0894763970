@@ -1,0 +1,22 @@
+"use strict";
+
+
+
+function saluda(){
+	//alert("HOLA");
+}
+
+
+
+window.addEventListener("load", function() {
+	
+	
+	
+	// Eventos botones
+	var pasaSobreUsuario = document.getElementById("nombreusuario")
+	if ( botonDesMarcarTodos != null ) botonDesMarcarTodos.onclick=desMarcarTodas;
+	
+	var botonBorrarSeleccionadas = document.getElementById("borrarSeleccionadas");
+	if ( botonBorrarSeleccionadas != null ) botonBorrarSeleccionadas.onclick=borrarSeleccionadas;
+	
+});

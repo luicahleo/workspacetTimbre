@@ -43,5 +43,9 @@ public class AccederServlet extends HttpServlet {
 			resp.sendRedirect("index.jsp");
 		}
 	}
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		doPost(request, response);
+	}
 
 }

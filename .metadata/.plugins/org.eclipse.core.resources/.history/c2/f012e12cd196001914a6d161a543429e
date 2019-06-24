@@ -1,0 +1,80 @@
+
+<%@page import="fast.bloc.Usuario"%>
+<script src="${pageContext.request.contextPath}/usuarios/js/cabecera.js"></script>
+
+
+<jsp:useBean id="usuario" class="fast.bloc.Usuario" scope="session" />
+
+
+<%
+
+String usu = usuario.getNombre();
+
+if(usuario.getTipo_usu()==Usuario.ADMINISTRADOR){
+	
+	System.out.println("debug: " + usu);
+
+
+%>
+
+
+<%}%>
+
+<div id="navegador">
+  <ul>
+    <li id="seccion1" onmouseover="ver(1)" onmouseout="ocultar(1)">
+      <a href="#">Sección Uno</a>
+      <div id="subseccion1">
+        <p><a href="#"> Subsección uno uno</a></p>
+        <p><a href="#"> Subsección uno dos</a></p>
+        <p><a href="#"> Subsección uno tres</a></p>
+        <p><a href="#"> Subsección uno cuatro</a></p> 
+      </div>
+    </li>
+    <li id="seccion2"  onmouseover="ver(2)" onmouseout="ocultar(2)">
+      <a href="#">Sección Dos</a>
+      <div id="subseccion2">
+        <p><a href="#"> Subsección dos uno</a></p>
+        <p><a href="#"> Subsección dos dos</a></p>
+        <p><a href="#"> Subsección dos tres</a></p>
+      </div>			
+    </li>
+    <li id="seccion3" onmouseover="ver(3)" onmouseout="ocultar(3)">
+    <a href="#">Sección Tres</a>
+      <div id="subseccion3">
+        <p><a href="#"> Subsección tres uno</a></p>
+        <p><a href="#"> Subsección tres dos</a></p>
+        <p><a href="#"> Subsección tres tres</a></p>
+        <p><a href="#"> Subsección tres cuatro</a></p>
+        <p><a href="#"> Subsección tres cinco</a></p>
+      </div>	
+    </li>
+    <li id="seccion4" onmouseover="ver(4)" onmouseout="ocultar(4)">
+    <a href="#">Sección Cuatro</a> 
+      <div id="subseccion4">
+        <p><a href="#"> Subsección cuatro uno</a></p>
+        <p><a href="#"> Subsección cuatro dos</a></p>
+        <p><a href="#"> Subsección cuatro tres</a></p>
+      </div>
+    </li>
+  </ul>
+  <div class="borrar"></div>
+</div>
+
+
+
+<div id="cabecera">
+	<div id="logotipo">
+		<a href="${pageContext.request.contextPath}/menu.jsp"> 
+		<img src="${pageContext.request.contextPath}/imagenes/blocnotasfast-p.png"	alt="Bloc de Notas FAST"/>
+		</a>
+	</div>
+
+<!-- 
+
+	<a href="${pageContext.request.contextPath}/index.jsp?salir">
+	<span class="acceso">Cerrar sesión</span>
+	</a> 
+	<span class='acceso' id='nombreusuario'>${usuario.nombre}</span>
+ -->
+</div>
